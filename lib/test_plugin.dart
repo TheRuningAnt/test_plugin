@@ -3,7 +3,7 @@ import 'test_plugin_platform_interface.dart';
 
 class TestPlugin {
 
-  //增加一个空的测试方法12345
+  //增加一个空的测试方法
   void addNullFunc(){
 
   }
