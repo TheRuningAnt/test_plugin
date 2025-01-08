@@ -14,4 +14,9 @@ class MethodChannelTestPlugin extends TestPluginPlatform {
     final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
     return version;
   }
+
+  @override
+  Future<void> testIOSFramework() async {
+    methodChannel.invokeMethod<String>('testIOSFramework');
+  }
 }

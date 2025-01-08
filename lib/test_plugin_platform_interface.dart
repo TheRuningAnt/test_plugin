@@ -26,4 +26,8 @@ abstract class TestPluginPlatform extends PlatformInterface {
   Future<String?> getPlatformVersion() {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
+
+  Future<void> testIOSFramework() {
+    throw UnimplementedError('testIOSFramework() has not been implemented.');
+  }
 }
